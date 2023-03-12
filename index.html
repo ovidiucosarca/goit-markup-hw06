@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="node_modules/modern-normalize/modern-normalize.css"
+		/>
+		<link rel="stylesheet" href="styles/styles.css" />
+		<title>Studio</title>
+	</head>
+	<body>
+
+		<div class="backdrop is-hidden" data-modal>
+			<div class="modal">
+
+				<svg class="close-w" width="11" height="11" data-modal-close>
+					<use 
+						href="svg/symbol-defs.svg#icon-close"
+					></use>
+				</svg>	
+			</div>
+		</div>
+
+		<div class="container-header">
+			<!-- Sectiunea de meniu + date de contact -->
+			<div class="section">
+				<header class="page-header">
+					<h2 class="site-name">
+						<a class="page-title" href="index.html"
+							>Web<span class="title-black">Studio</span></a
+						>
+					</h2>
+
+					<nav class="menu-items">
+						<ul class="unstyled-list main-menu">
+							<li class="menu-place">
+								<a class="link" href="index.html">Studio</a>
+							</li>
+							<li>
+								<a class="link" href="portofolio.html"
+									>Portofolio</a
+								>
+							</li>
+							<li>
+								<a class="link" href="contacts.html"
+									>Contacts</a
+								>
+							</li>
+						</ul>
+					</nav>
+
+					<ul class="unstyled-list info-menu">
+
+						<li class="contact-group">
+							<div class="contact-element">
+									<svg width="16" height="12">
+										<use
+											href="svg/symbol-defs.svg#icon-address-envelope"
+										></use>
+									</svg>								
+							</div>
+							<a class="link" href="mailto:info@devstudio.com"
+								>info@devstudio.com</a
+							>
+						</li>
+						<li class="contact-group">
+							<div class="contact-element">
+									<svg width="16" height="12">
+										<use
+											href="svg/symbol-defs.svg#icon-address-Phone"
+										></use>
+									</svg>
+							</div>
+							<a class="link" href="tel:+12127724150"
+								>+1 212-772-4150</a
+							>
+						</li>
+					</ul>
+				</header>
+			</div>
+		</div>
+		<main>
+			<!-- Sectiune 1 + buton cerere servicii -->
+			<div class="container-hero">
+				<div class="section">
+					<section class="hero-section">
+						<h1 class="hero-header">
+							EFFECTIVE SOLUTIONS FOR <br />
+							YOUR BUSINESS
+						</h1>
+						<button data-modal-open type="button" class="first-page-button">
+							<span class="page-button-name">
+								Request our service</span
+							>
+						</button>
+					</section>
+				</div>
+			</div>
+
+			<!-- Sectiune 2 - Calitatile studioului -->
+			<div class="container">
+				<div class="section">
+					<section>
+						<ul class="unstyled-list studio-q">
+							<li>
+								<div class="studio-q-image">
+										<svg width="65.32" height="70">
+											<use
+												href="svg/symbol-defs.svg#icon-SQ-antenna-1"
+											></use>
+										</svg>
+								</div>
+								<h3 class="index-title">
+									ATTENTION TO DETAILS
+								</h3>
+								<p class="index-type">
+									We go into all the details and processes
+									<br />
+									of your business to develop a <br />
+									customized solution.
+								</p>
+							</li>
+							<li>
+								<div class="studio-q-image">
+										<svg width="66.96" height="70">
+											<use
+												href="svg/symbol-defs.svg#icon-SQ-clock-1"
+											></use>
+										</svg>
+								</div>
+								<h3 class="index-title">PUNCTUALITY</h3>
+								<p class="index-type">
+									With us, you can feel safe and secure.
+									<br />
+									An important principle of the company:
+									<br />
+									respect your time and deadlines.
+								</p>
+							</li>
+							<li>
+								<div class="studio-q-image">
+										<svg height="70">
+											<use
+												href="svg/symbol-defs.svg#icon-SQ-diagram-1"
+											></use>
+										</svg>
+								</div>
+								<h3 class="index-title">PLANNING</h3>
+								<p class="index-type">
+									You will be able to observe and <br />
+									participate in every phase of solution
+									<br />
+									development and implementation.
+								</p>
+							</li>
+							<li>
+								<div class="studio-q-image">
+										<svg width="70" height="70 ">
+											<use
+												href="svg/symbol-defs.svg#icon-SQ-astronaut-1"
+											></use>
+										</svg>
+								</div>
+								<h3 class="index-title">MODERN TECHNOLOGIES</h3>
+								<p class="index-type">
+									We use innovative tools to solve <br />
+									assigned tasks. It's time to simplify work
+									<br />
+									processes.
+								</p>
+							</li>
+						</ul>
+					</section>
+				</div>
+			</div>
+
+			<div class="container">
+				<div class="section">
+					<section>
+						<!-- Lista cu ce facem -->
+						<h2 class="what-we-do">What we do</h2>
+
+						<ul class="unstyled-list what-photos">
+							<li class="wwd-item">
+								<img
+									class="what-image"
+									height="294"
+									width="370"
+									src="images/whatwedo_1.jpg"
+									alt="what we do tablet"
+								/>
+
+								<p class="what-text">DESKTOP APPS</p>
+
+							</li>
+							<li class="wwd-item">
+								<img
+									class="index-image"
+									height="294"
+									width="370"
+									src="images/whatwedo_2.jpg"
+									alt="what we do phone"
+								/>
+								<p class="what-text">MOBILE APPS</p>
+							</li>
+							<li class="wwd-item">
+								<img
+									class="index-image"
+									height="294"
+									width="370"
+									src="images/whatwedo_3.jpg"
+									alt="what we do hex"
+								/>
+								<p class="what-text">DESIGN SOLUTIONS</p>
+							</li>
+						</ul>
+					</section>
+				</div>
+			</div>
+
+			<div class="container-team">
+				<div class="section">
+					<section class="team-section">
+						<!-- Echipa - foto + functie  -->
+						<h2 class="our-team">Our Team</h2>
+
+						<ul class="unstyled-list team-photos">
+							<li>
+								<div class="team-member">
+									<img
+										class="index-image"
+										height="260"
+										width="270"
+										src="images/team_ChristopherWalker.jpg"
+										alt="Christopher Walker"
+									/>
+									<h3 class="team-title">
+										Christopher Walker
+									</h3>
+									<p class="team-type">Product Designer</p>
+
+									<div class="social-media-icons">
+										<ul class="unstyled-list-footer">
+											<li class="icon-list-item">
+													<svg class="icon-control" width="20" height="20">
+														<use
+															href="svg/symbol-defs.svg#icon-social-instagram"
+														></use>
+													</svg>
+											</li>
+											<li class="icon-list-item">
+													<svg class="icon-control" width="20" height="20">
+														<use 
+															href="svg/symbol-defs.svg#icon-social-twitter"
+														></use>
+													</svg>
+											</li>
+											<li class="icon-list-item">
+													<svg class="icon-control" width="20" height="20">
+														<use
+															href="svg/symbol-defs.svg#icon-social-facebook"
+														></use>
+													</svg>
+											</li>
+											<li class="icon-list-item">
+													<svg class="icon-control" width="20" height="20">
+														<use
+															href="svg/symbol-defs.svg#icon-social-linkedin"
+														></use>
+													</svg>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="team-member">
+									<img
+										class="index-image"
+										height="260"
+										width="270"
+										src="images/team_KylieEvans.jpg"
+										alt="Kylie Evans"
+									/>
+									<h3 class="team-title">Kylie Evans</h3>
+									<p class="team-type">Frontend Developer</p>
+									<div class="social-media-icons">
+										<ul class="unstyled-list-footer">
+											<li class="icon-list-item">
+													<svg class="icon-control" width="20" height="20">
+														<use
+															href="svg/symbol-defs.svg#icon-social-instagram"
+														></use>
+													</svg>
+											</li>
+											<li class="icon-list-item">
+													<svg class="icon-control" width="20" height="20">
+														<use 
+															href="svg/symbol-defs.svg#icon-social-twitter"
+														></use>
+													</svg>
+											</li>
+											<li class="icon-list-item">
+													<svg class="icon-control" width="20" height="20">
+														<use
+															href="svg/symbol-defs.svg#icon-social-facebook"
+														></use>
+													</svg>
+											</li>
+											<li class="icon-list-item">
+													<svg class="icon-control" width="20" height="20">
+														<use
+															href="svg/symbol-defs.svg#icon-social-linkedin"
+														></use>
+													</svg>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="team-member">
+									<img
+										class="index-image"
+										height="260"
+										width="270"
+										src="images/team_RyanHarris.jpg"
+										alt="Ryan Harris"
+									/>
+									<h3 class="team-title">Ryan Harris</h3>
+									<p class="team-type">Marketing</p>
+									<div class="social-media-icons">
+										<ul class="unstyled-list-footer">
+											<li class="icon-list-item">
+													<svg class="icon-control"  width="20" height="20">
+														<use
+															href="svg/symbol-defs.svg#icon-social-instagram"
+														></use>
+													</svg>
+											</li>
+											<li class="icon-list-item">
+													<svg class="icon-control" width="20" height="20">
+														<use 
+															href="svg/symbol-defs.svg#icon-social-twitter"
+														></use>
+													</svg>
+											</li>
+											<li class="icon-list-item">
+													<svg class="icon-control" width="20" height="20">
+														<use
+															href="svg/symbol-defs.svg#icon-social-facebook"
+														></use>
+													</svg>
+											</li>
+											<li class="icon-list-item">
+													<svg class="icon-control" width="20" height="20">
+														<use
+															href="svg/symbol-defs.svg#icon-social-linkedin"
+														></use>
+													</svg>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="team-member">
+									<img
+										class="index-image"
+										height="260"
+										width="270"
+										src="images/team_TylerMoore.jpg"
+										alt="Tyler Moore"
+									/>
+									<h3 class="team-title">Tyler Moore</h3>
+									<p class="team-type">UI Designer</p>
+									<div class="social-media-icons">
+										<ul class="unstyled-list-footer">
+											<li class="icon-list-item">
+													<svg class="icon-control" width="20" height="20">
+														<use
+															href="svg/symbol-defs.svg#icon-social-instagram"
+														></use>
+													</svg>
+											</li>
+											<li class="icon-list-item">
+													<svg class="icon-control" width="20" height="20">
+														<use 
+															href="svg/symbol-defs.svg#icon-social-twitter"
+														></use>
+													</svg>
+											</li>
+											<li class="icon-list-item">
+													<svg class="icon-control" width="20" height="20">
+														<use
+															href="svg/symbol-defs.svg#icon-social-facebook"
+														></use>
+													</svg>
+											</li>
+											<li class="icon-list-item">
+													<svg class="icon-control" width="20" height="20">
+														<use
+															href="svg/symbol-defs.svg#icon-social-linkedin"
+														></use>
+													</svg>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</section>
+				</div>
+			</div>
+			<!-- Sectiune 5 - REGULAR CUSTOMERS -->
+			<div class="container">
+				<div class="section">
+					<section>
+						<!-- Lista cu ce facem -->
+						<h2 class="regular-customers">Regular customers</h2>
+
+						<ul class="unstyled-list regular-customers-logos">
+							<li>
+								<svg class="regular-customers-outline" width="170" height="92">
+									<use
+										href="svg/symbol-defs.svg#icon-Logo_client1"
+									></use>
+								</svg>
+							</li>
+							<li>
+								<svg class="regular-customers-outline" width="170" height="92">
+									<use
+										href="svg/symbol-defs.svg#icon-Logo_client11"
+									></use>
+								</svg>
+							</li>
+							<li>
+								<svg class="regular-customers-outline" width="170" height="92">
+									<use
+										href="svg/symbol-defs.svg#icon-Logo_client2"
+									></use>
+								</svg>
+							</li>
+							<li>
+								<svg class="regular-customers-outline" width="170" height="92">
+									<use
+										href="svg/symbol-defs.svg#icon-Logo_client4"
+									></use>
+								</svg>
+							</li>
+							<li>
+								<svg class="regular-customers-outline" width="170" height="92">
+									<use
+										href="svg/symbol-defs.svg#icon-Logo_client5"
+									></use>
+								</svg>
+							</li>
+							<li>
+								<svg class="regular-customers-outline" width="170" height="92">
+									<use
+										href="svg/symbol-defs.svg#icon-Logo_client6"
+									></use>
+								</svg>
+							</li>
+						</ul>
+					</section>
+				</div>
+			</div>
+
+		</main>
+		<div class="container-footer">
+			<div class="section footer-section">
+				<footer class="page-footer">
+					<!-- Footer - adresa si contact -->
+					<div class="footer-address">
+					<h2 class="logo-footer">
+						<a class="page-title" href="index.html"
+							>Web<span class="title-white">Studio</span></a
+						>
+					</h2>
+
+					<address>
+						<ul class="unstyled-list address-footer">
+							<li>
+								<a class="address-street" href=""
+									>695 Park Ave, NY 10065, USA</a
+								>
+							</li>
+							<li>
+								<a
+									class="address-mail"
+									href="mailto:info@devstudio.com"
+									>info@devstudio.com</a
+								>
+							</li>
+							<li>
+								<a class="address-phone" href="tel:+12127724150"
+									>+1 212-772-4150</a
+								>
+							</li>
+						</ul>
+					</address>
+				</div>
+				<div class="footer-social">
+					<p class="social-footer-text">FIND US ON</p>
+					<div class="social-media-icons">
+						<ul class="unstyled-list-footer">
+							<li class="icon-list-footer">
+									<svg class="icon-control-footer" width="20" height="20">
+										<use
+											href="svg/symbol-defs.svg#icon-social-instagram"
+										></use>
+									</svg>
+							</li>
+							<li class="icon-list-footer">
+									<svg class="icon-control-footer" width="20" height="20">
+										<use 
+											href="svg/symbol-defs.svg#icon-social-twitter"
+										></use>
+									</svg>
+							</li>
+							<li class="icon-list-footer">
+									<svg class="icon-control-footer" width="20" height="20">
+										<use
+											href="svg/symbol-defs.svg#icon-social-facebook"
+										></use>
+									</svg>
+							</li>
+							<li class="icon-list-footer">
+									<svg class="icon-control-footer" width="20" height="20">
+										<use
+											href="svg/symbol-defs.svg#icon-social-linkedin"
+										></use>
+									</svg>
+							</li>
+						</ul>
+					</div>
+				</div>
+				</footer>
+			</div>
+		</div>
+
+		<script src="js/modal.js"></script>
+
+	</body>
+</html>
