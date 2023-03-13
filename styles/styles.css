@@ -741,7 +741,7 @@ body {
 }
 
 .close-w:hover{
-    fill:blue;
+    fill: var(--sec-color);
 }
 
 .form-elements{
@@ -872,10 +872,11 @@ body {
     position:relative;
 }
 
-.contact-form .form-item:focus-within{
-    fill: blue;
+.contact-form .form-item:focus-within,
+.contact-form .form-item:hover{
+    fill: var(--sec-color);
     outline: none;
-    --input-form-border: blue;
+    --input-form-border: var(--sec-color);
 }
 
 .form-input:focus-visible,
